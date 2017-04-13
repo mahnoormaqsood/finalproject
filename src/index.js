@@ -12,7 +12,7 @@ $('#main').html(a);
 
 function updateTime() {
   num += 1;
-  $('#main').html(a);
+  $('#main').html(`Youve been on this page for ${num} seconds!!`);
 }
 
 window.setInterval(() => {
