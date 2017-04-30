@@ -2,7 +2,7 @@
 import React from 'react';
 // import ReactDOM from 'react-dom';
 import { BrowserRouter as Router, Route, NavLink, Switch } from 'react-router-dom';
-// import './style.scss';
+import '../style.scss';
 import Counter from '../containers/counter';
 import Controls from '../containers/controls';
 
